@@ -59,8 +59,8 @@ camera.position.set(0, 0, 18);
 scene.add(camera);
 
 // Controls
-const controls = new OrbitControls(camera, canvas);
-controls.enableDamping = true;
+// const controls = new OrbitControls(camera, canvas);
+// controls.enableDamping = true;
 
 /**
  * Renderer
@@ -181,8 +181,8 @@ scene.add(particles);
  * Animate
  */
 const tick = () => {
-	// Update controls
-	controls.update();
+	// // Update controls
+	// controls.update();
 
 	/**
 	 * Raycaster
